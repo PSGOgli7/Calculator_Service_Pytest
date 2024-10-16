@@ -35,3 +35,4 @@ def test_calculate_multiplication_with_mock_verifies_get_data_called():
     
     assert result == 12         # 2 * 2 * 3 = 12
     mock_repository.get_data.assert_called_once()
+
